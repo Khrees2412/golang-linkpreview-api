@@ -19,5 +19,5 @@ func main() {
 	if port == ""{
 		port = ":8080"
 	}
-  app.Listen(port)
+  app.Listen(":"+port)
 }
